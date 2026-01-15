@@ -97,6 +97,27 @@ span.chip {
     position: relative;
 }
 
+/* hint */
+.hint-btn{
+    margin-bottom: 1em;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    background-color: #FCBA29;
+    padding: 0 1em;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.hint-btn:hover{
+    cursor: pointer;
+}
+
+.hint-btn:disabled{
+    cursor: not-allowed;
+}
+
 .time-left{
   margin: 0 0 1em 0;
 }
