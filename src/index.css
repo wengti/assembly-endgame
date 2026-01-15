@@ -135,6 +135,7 @@ span.chip.lost::before {
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2.9px;
 }
 
 section.word {
